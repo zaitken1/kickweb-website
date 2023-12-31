@@ -1,0 +1,248 @@
+/* GLOBAL CLASSES */
+* {
+    padding: 0;
+    margin:0;
+  }
+
+body, html {
+    height: 100%;
+  }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arvo;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p {
+    font-family: Lato;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+.btn-1 {
+    margin: 40px;
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+    width: 150px;
+    background-color: #0a9a73;
+    font-size: 15px;
+    color: white;
+}
+
+.btn-1:hover {
+    cursor: pointer;
+    background-color: #0dc694;
+}
+
+/* LOGO & NAVBAR */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    align-content: center;
+    margin: 0 100px;
+}
+
+.logo {
+    width: 175px;
+    height: 60px;
+}
+
+nav {
+    font-family: Lato;
+    padding: 15px;
+}
+
+.nav-link {
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link:hover {
+    color: #0a9a73;
+}
+
+.nav-btn {
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+    width: 150px;
+    background-color: #0a9a73;
+    font-size: 15px;
+    color: white;
+    margin-left: 10px;
+}
+
+.nav-btn:hover {
+    cursor: pointer;
+    background-color: #0dc694;
+}
+
+/* HERO BANNER */
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+    background-color: #b5e0d5;
+}
+
+.hero-shape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    background-color: #ffffff;
+    clip-path: polygon(
+    0 0, 
+    100% 0, 
+    100% 65%, 
+    0 100%
+  );
+}
+
+.hero-h1 {
+    font-size: 40px;
+    margin: 0 100px;
+}
+
+.hero-p {
+    padding: 25px 0 0 0;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #b5e0d5;
+    clip-path: polygon(
+        0% 0%, 0% 60%, 100% 100%, 100% 0%
+    );
+    color: black;
+    height: 500px;
+}
+
+.about h2, .about p {
+    width: 50%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.usps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    color: black;
+    height: 500px;
+    margin: 50px 0 100px 0;
+}
+
+.usps h2 {
+    margin-bottom: 15px;
+}
+
+.usps p {
+    margin-bottom: 40px;
+}
+
+.usp-items {
+    display: flex;
+}
+
+.usp-item {
+    text-align: center;
+    margin: 0 100px;
+}
+
+.fa-edit, .fa-pound-sign, .fa-calendar-check {
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+.usp-item h3 {
+    padding-bottom: 20px;
+}
+
+.services {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-content {
+    padding: 200px 0;
+    width: 50%;
+    margin-left: 100px;
+}
+
+.services-img {
+    width: 50%;
+    margin-right: 100px;
+    padding-left: 50px;
+}
+
+.services-img img {
+    height: 400px;
+    width: 600px;
+    padding-right: 50px;
+}
+
+.services-content h2 {
+    padding: 0 0 40px 0;
+}
+
+.services-content p {
+    padding: 15px 0 40px 0;
+    width: 80%;
+}
+
+.my-work {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    text-align: center;
+}
+
+.my-work-content {
+    margin-bottom: 50px;
+}
+
+.my-work-content h2 {
+    margin-bottom: 15px;
+}
+
+.work-card h3 {
+    margin-bottom: 20px;
+}
+
+.work-card img {
+    height: 200px;
+    width: 400px;
+}

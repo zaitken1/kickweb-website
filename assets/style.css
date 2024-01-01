@@ -83,13 +83,33 @@ nav {
 }
 
 .nav-link {
-    padding: 15px;
+    margin: 15px;
     text-decoration: none;
     color: black;
+    position: relative;
 }
 
 .nav-link:hover {
     color: #0a9a73;
+}
+
+.nav-link::after {
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: #0a9a73;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    opacity: 0;
+    transition: transform 0.3s ease;
+    pointer-events: none;
+    transform: scaleX(0);
+}
+
+.nav-link:hover::after {
+    opacity: 1;
+    transform: scaleX(1);
 }
 
 .nav-btn {

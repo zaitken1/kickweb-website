@@ -34,6 +34,43 @@ p {
     line-height: 1.6;
 }
 
+/* BUTTON CLASSES */
+.nav-btn {
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+    width: 140px;
+    background-color: #0a9a73;
+    font-size: 15px;
+    color: white;
+    margin-left: 10px;
+    position: relative;
+    transition: 400ms;
+}
+
+.nav-btn:hover, .btn-1:hover, .btn-2:hover {
+    cursor: pointer;
+    background-color: #0dc694;
+    width: 160px;
+    padding-left: 0;
+}
+
+.btn-1:hover {
+    width: 180px;
+}
+
+.fa-arrow-right {
+    position: absolute;
+    margin-left: 10px;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+
+.nav-btn:hover .fa-arrow-right, .btn-1:hover .fa-arrow-right, .btn-2:hover .fa-arrow-right {
+    opacity: 1;
+    transform: translateX(0);
+}
+
 .btn-1 {
     margin: 40px;
     padding: 15px;
@@ -43,6 +80,7 @@ p {
     background-color: #0a9a73;
     font-size: 15px;
     color: white;
+    transition: 400ms;
 }
 
 .btn-2 {
@@ -50,10 +88,11 @@ p {
     padding: 15px;
     border: none;
     border-radius: 25px;
-    width: 200px;
+    width: 180px;
     background-color: #0a9a73;
     font-size: 15px;
     color: white;
+    transition: 400ms;
 }
 
 .btn-1:hover,
@@ -110,22 +149,6 @@ nav {
 .nav-link:hover::after {
     opacity: 1;
     transform: scaleX(1);
-}
-
-.nav-btn {
-    padding: 15px;
-    border: none;
-    border-radius: 25px;
-    width: 150px;
-    background-color: #0a9a73;
-    font-size: 15px;
-    color: white;
-    margin-left: 10px;
-}
-
-.nav-btn:hover {
-    cursor: pointer;
-    background-color: #0dc694;
 }
 
 /* HERO BANNER */

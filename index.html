@@ -17,7 +17,7 @@
     <header>
         <img class="logo" src="./assets/images/kickweb-logo-arrow.png">
         <nav>
-            <a class="nav-link" href="#about">ABOUT</a>
+            <a class="nav-link nav-link-ltr" href="#about">ABOUT</a>
             <a class="nav-link" href="#services">SERVICES</a>
             <a class="nav-link" href="#my-work">MY WORK</a>
             <a href="#contact"><button class="nav-btn">CONTACT</button></a>
@@ -28,7 +28,7 @@
         <div class="hero-shape">
             <h1 class="hero-h1">Affordable Website Development and SEO</h1>
             <p class="hero-p">I design affordable and functional websites that help you market your business online.</p>
-            <button class="btn-1">GET IN TOUCH</button>
+            <a href="#contact"><button class="btn-1">GET IN TOUCH</button></a>
         </div>
     </section>
     <section id="about" class="about">
@@ -87,43 +87,47 @@
         <section class="work-cards">
             <section class="work-card">
                 <h3>Artwave West</h3>
-                <img src="./assets/images/artwave-west-website.png">
+                <a href="https://www.artwavewest.com/" target="_blank"><img src="./assets/images/artwave-west-website.png"></a>
             </section>
             <section class="work-card">
-                <h3>April Translates</h3>
-                <img src="./assets/images/april-translates-website.png">
+                <h3>West Somerset Green Forum</h3>
+                <a href="https://www.westsomersetgreenforum.com/" target="_blank"><img src="./assets/images/west-somerset-green-forum-website.png"></a>
             </section>
             <section class="work-card">
                 <h3>James A Photography</h3>
-                <img src="./assets/images/james-a-photography-website.png">
+                <a href="https://www.jamesaphotography.co.uk/" target="_blank"><img src="./assets/images/james-a-photography-website.png"></a>
             </section>
         </section>
         <section class="work-cards-2">
             <section class="work-card">
-                <h3>West Somerset Green Forum</h3>
-                <img src="./assets/images/west-somerset-green-forum-website.png">
+                <h3>April Translates</h3>
+                <a href="https://www.jamesaphotography.co.uk/" target="_blank"><img src="./assets/images/april-translates-website.png"></a>
             </section>
             <section class="work-card">
                 <h3>Safar Restaurant</h3>
-                <img src="./assets/images/safar-restaurant-website.png">
+                <a href="https://www.safaraxminster.com/" target="_blank"><img src="./assets/images/safar-restaurant-website.png"></a>
             </section>
             <section class="work-card">
                 <h3>Aroma Reflex</h3>
-                <img src="./assets/images/aroma-reflex-website.png">
+                <a href="https://www.aromareflex.com/" target="_blank"><img src="./assets/images/aroma-reflex-website.png"></a>
             </section>
         </section>
     </section>
     <section id="contact" class="contact">
-        <section class="contact-form">
+        <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
             <h2>Let's Talk</h2>
             <p>If you're looking for an affordable website and SEO services, get in touch now. I'd love to chat to you
                 about your website and business needs.</p>
-            <input placeholder="Name">
-            <input placeholder="Email">
-            <input placeholder="Phone Number">
-            <input placeholder="Message">
-            <button class="btn-2">SEND MESSAGE</button>
-        </section>
+            <input type="hidden" name="access_key" value="59ca00fe-e5f2-42a7-aae1-de6a11acf053">
+            <input placeholder="Name" type="text" name="name" required>
+            <input placeholder="Email" type="email" name="email" required>
+            <textarea placeholder="Message" name="message" required></textarea>
+            <div class="h-captcha" data-captcha="true"></div>
+            <button class="btn-2" type="submit">SUBMIT FORM</button>
+        
+        </form>
+        
+        <script src="https://web3forms.com/client/script.js" async defer></script>
         <section class="contact-img">
             <img src="./assets/images/zara-aitken.jpg">
         </section>

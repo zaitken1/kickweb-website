@@ -246,6 +246,7 @@ header {
 
 .usps h2 {
     margin-bottom: 15px;
+    text-align: center;
 }
 
 .usps p {
@@ -335,25 +336,30 @@ header {
     width: 100%;
     padding-bottom: 50px;
     grid-template-areas:
-    "work-card-1 work-card-2 work-card-3"
-    "work-card-4 work-card-5 work-card-6"
+        "work-card-1 work-card-2 work-card-3"
+        "work-card-4 work-card-5 work-card-6"
 }
 
 .work-card-1 {
     grid-area: work-card-1;
 }
+
 .work-card-2 {
     grid-area: work-card-2;
 }
+
 .work-card-3 {
     grid-area: work-card-3;
 }
+
 .work-card-4 {
     grid-area: work-card-4;
 }
+
 .work-card-5 {
     grid-area: work-card-5;
 }
+
 .work-card-6 {
     grid-area: work-card-6;
 }
@@ -457,9 +463,9 @@ footer p a:hover {
         width: 100%;
         margin-bottom: 50px;
         grid-template-areas:
-        "work-card-1 work-card-2"
-        "work-card-3 work-card-4" 
-        "work-card-5 work-card-6"
+            "work-card-1 work-card-2"
+            "work-card-3 work-card-4"
+            "work-card-5 work-card-6"
     }
 
     .work-card {
@@ -506,7 +512,8 @@ footer p a:hover {
         width: 100%;
     }
 
-    input, textarea {
+    input,
+    textarea {
         width: 90%;
     }
 
@@ -558,7 +565,7 @@ footer p a:hover {
         align-items: center;
         padding-bottom: 100px;
     }
-    
+
     .services-img img {
         height: 500px;
         width: 700px;
@@ -574,7 +581,9 @@ footer p a:hover {
 }
 
 @media only screen and (max-width: 1046px) {
-    .hero-h1, .hero-p {
+
+    .hero-h1,
+    .hero-p {
         text-align: center;
     }
 }
@@ -582,16 +591,16 @@ footer p a:hover {
 @media only screen and (max-width: 1028px) {
     .work-cards {
         grid-template-columns: 1fr;
-        margin: 0 100px;
+        margin: 0;
         width: 100%;
         margin-bottom: 50px;
         grid-template-areas:
-        "work-card-1" 
-        "work-card-2"
-        "work-card-3" 
-        "work-card-4" 
-        "work-card-5" 
-        "work-card-6"
+            "work-card-1"
+            "work-card-2"
+            "work-card-3"
+            "work-card-4"
+            "work-card-5"
+            "work-card-6"
     }
 
     .work-card {
@@ -624,7 +633,9 @@ footer p a:hover {
 }
 
 @media only screen and (max-width: 950px) {
-    .about h2, .about p {
+
+    .about h2,
+    .about p {
         width: 75%;
     }
 }
@@ -649,7 +660,7 @@ footer p a:hover {
 
     footer {
         flex-direction: column;
-    }    
+    }
 
     footer div p {
         text-align: center;
@@ -677,7 +688,8 @@ footer p a:hover {
         left: 0;
     }
 
-    .nav-link, .nav-btn {
+    .nav-link,
+    .nav-btn {
         margin: 1.25rem 0;
     }
 
@@ -783,5 +795,51 @@ footer p a:hover {
     .contact-img img {
         height: 250px;
         width: 400px;
+    }
+}
+
+@media only screen and (max-width: 431px) {
+
+    .hero,
+    .hero-shape {
+        height: 800px;
+    }
+
+    .usps {
+        height: 1050px;
+    }
+
+    .contact-form {
+        padding: 50px;
+    }
+
+    .work-card img {
+        height: 220px;
+        width: 350px;
+    }
+
+    .my-work {
+        padding: 100px 30px 0 30px;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+    .about {
+        height: 950px;
+    }
+
+    .usps {
+        height: 1200px;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .work-card img {
+        height: 190px;
+        width: 300px;
+    }
+
+    .contact-form {
+        padding: 50px 20px;
     }
 }

@@ -351,9 +351,24 @@ input, textarea {
     padding: 10px;
     width: 80%;
     margin: 5px 0 5px 0;
-    border: none;
-    border-radius: 5px;
+    border-radius: 0;
+    background-color: transparent;
+    border-bottom-width: 1px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: black;
 }
+
+textarea {
+    margin-bottom: 20px;
+}
+
+::placeholder { 
+    color: darkslategrey;
+    font-size: 1rem;
+    font-family: Lato;
+  }
 
 .contact-img {
     width: 50%;

@@ -15,12 +15,19 @@
 <body>
     <!-- HEADER AND NAV -->
     <header>
-        <img class="logo" src="./assets/images/kickweb-logo-arrow.png">
-        <nav>
-            <a class="nav-link" href="#about">ABOUT</a>
-            <a class="nav-link" href="#services">SERVICES</a>
-            <a class="nav-link" href="#my-work">MY WORK</a>
-            <a href="#contact"><button class="nav-btn">CONTACT<i class="fas fa-arrow-right"></i></button></a>
+        <nav class="nav-bar" id="nav-menu">
+            <a href="#"><img class="logo" src="./assets/images/kickweb-logo-arrow.png"></a>
+            <div class="nav-menu">
+                <a id="nav" class="nav-link" href="#about">ABOUT</a>
+                <a id="nav" class="nav-link" href="#services">SERVICES</a>
+                <a id="nav" class="nav-link" href="#my-work">MY WORK</a>
+                <a id="nav" href="#contact"><button class="nav-btn">CONTACT<i class="fas fa-arrow-right"></i></button></a>
+            </div>
+            <div id="hamburger" class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </nav>
     </header>
     <!-- HERO BANNER -->
@@ -87,29 +94,35 @@
         <section class="work-cards">
             <section class="work-card">
                 <h3>Artwave West</h3>
-                <a href="https://www.artwavewest.com/" target="_blank"><img src="./assets/images/artwave-west-website.png"></a>
+                <a href="https://www.artwavewest.com/" target="_blank"><img
+                        src="./assets/images/artwave-west-website.png"></a>
             </section>
             <section class="work-card">
                 <h3>West Somerset Green Forum</h3>
-                <a href="https://www.westsomersetgreenforum.com/" target="_blank"><img src="./assets/images/west-somerset-green-forum-website.png"></a>
+                <a href="https://www.westsomersetgreenforum.com/" target="_blank"><img
+                        src="./assets/images/west-somerset-green-forum-website.png"></a>
             </section>
             <section class="work-card">
                 <h3>James A Photography</h3>
-                <a href="https://www.jamesaphotography.co.uk/" target="_blank"><img src="./assets/images/james-a-photography-website.png"></a>
+                <a href="https://www.jamesaphotography.co.uk/" target="_blank"><img
+                        src="./assets/images/james-a-photography-website.png"></a>
             </section>
         </section>
         <section class="work-cards-2">
             <section class="work-card">
                 <h3>April Translates</h3>
-                <a href="https://www.jamesaphotography.co.uk/" target="_blank"><img src="./assets/images/april-translates-website.png"></a>
+                <a href="https://www.jamesaphotography.co.uk/" target="_blank"><img
+                        src="./assets/images/april-translates-website.png"></a>
             </section>
             <section class="work-card">
                 <h3>Safar Restaurant</h3>
-                <a href="https://www.safaraxminster.com/" target="_blank"><img src="./assets/images/safar-restaurant-website.png"></a>
+                <a href="https://www.safaraxminster.com/" target="_blank"><img
+                        src="./assets/images/safar-restaurant-website.png"></a>
             </section>
             <section class="work-card">
                 <h3>Aroma Reflex</h3>
-                <a href="https://www.aromareflex.com/" target="_blank"><img src="./assets/images/aroma-reflex-website.png"></a>
+                <a href="https://www.aromareflex.com/" target="_blank"><img
+                        src="./assets/images/aroma-reflex-website.png"></a>
             </section>
         </section>
     </section>
@@ -124,9 +137,9 @@
             <textarea placeholder="Message" name="message" required></textarea>
             <div class="h-captcha" data-captcha="true"></div>
             <button class="btn-2" type="submit">SUBMIT FORM<i class="fas fa-arrow-right"></i></button>
-        
+
         </form>
-        
+
         <script src="https://web3forms.com/client/script.js" async defer></script>
         <section class="contact-img">
             <img src="./assets/images/zara-aitken.jpg">

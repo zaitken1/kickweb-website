@@ -474,6 +474,16 @@ textarea {
     width: 80%;
 }
 
+.contact-img-about {
+    width: 50%;
+    margin-right: 100px;
+}
+
+.contact-img-about img {
+    height: 450px;
+    width: 600px;
+}
+
 /* FOOTER */
 footer {
     padding: 50px 100px;

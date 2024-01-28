@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Lato:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
+
 <body>
     <header>
         <nav class="nav-bar" id="nav-menu">
@@ -32,24 +34,32 @@
     <section class="hero">
         <div class="hero-shape">
             <h1 class="hero-h1">About Me</h1>
-            <p class="hero-p">I am a web developer and SEO specialist based in Devon, helping small businesses get online with simple and affordable websites.</p>
+            <p class="hero-p">I am a web developer and SEO specialist based in Devon, helping small businesses get
+                online with simple and affordable websites.</p>
             <a href="#contact"><button class="btn-1">GET IN TOUCH<i class="fas fa-arrow-right"></i></button></a>
         </div>
     </section>
     <section id="about" class="about">
         <h2>Hey, I'm Zara!</h2>
-        <p>I live and work in the beautiful county of Devon in the South West UK. I have 7 years' experience in the web industry. Having previously worked for a web development agency in Somerset for 5 years, I took the plunge into freelance work in 2022.</p>
-        <p>I am a keen traveller and love nature, adventure and the great outdoors! I work remotely, wherever I happen to be in the world! If I'm not at my laptop coding and creating beautiful websites, I'm probably out enjoying a hike or catching a flight!</p>
+        <p>I live and work in the beautiful county of Devon in the South West UK. I have 7 years' experience in the web
+            industry. Having previously worked for a web development agency in Somerset for 5 years, I took the plunge
+            into freelance work in 2022.</p>
+        <p>I am a keen traveller and love nature, adventure and the great outdoors! I work remotely, wherever I happen
+            to be in the world! If I'm not at my laptop coding and creating beautiful websites, I'm probably out
+            enjoying a hike or catching a flight!</p>
     </section>
     <section id="about-img-section" class="about-img-section">
         <div class="about-img-content">
             <h2>A Bit More About Me</h2>
             <h3>7 Years' Experience</h3>
-            <p>I have been working in the web industry since 2017 and have extensive experience in project management, digital marketing and web design and development.</p>
+            <p>I have been working in the web industry since 2017 and have extensive experience in project management,
+                digital marketing and web design and development.</p>
             <h3>Working Remotely</h3>
-            <p>Working remotely from my home office, a nearby cafe or wherever I find myself in the world means I have very low overheads. This means I can keep my costs low for my clients.</p>
+            <p>Working remotely from my home office, a nearby cafe or wherever I find myself in the world means I have
+                very low overheads. This means I can keep my costs low for my clients.</p>
             <h3>Approachable and Friendly</h3>
-            <p>I know the web world can be full of jargon which can make it difficult to understand exactly what you need. That's why I keep my communication jargon-free, approachable and friendly!</p>
+            <p>I know the web world can be full of jargon which can make it difficult to understand exactly what you
+                need. That's why I keep my communication jargon-free, approachable and friendly!</p>
         </div>
         <div class="about-img">
             <img src="./assets/images/zara-portrait.jpg">
@@ -62,19 +72,41 @@
             <div class="usp-item">
                 <i class="fas fa-globe-africa"></i>
                 <h3>Travelling</h3>
-                <p>I'm an adventurous soul at heart and love to travel, both solo and with friends and family. In my spare time, I write a <a href="https://passport-for-living.com/" target="_blank">travel blog</a> about my experiences.</p>
+                <p>I'm an adventurous soul at heart and love to travel, both solo and with friends and family. In my
+                    spare time, I write a <a href="https://passport-for-living.com/" target="_blank">travel blog</a>
+                    about my experiences.</p>
             </div>
             <div class="usp-item">
                 <i class="fas fa-hiking"></i>
                 <h3>Hiking</h3>
-                <p>I love being outdoors in nature, enjoying beautiful scenery and exercise. I am currently hiking the South West Coast Path in stages. The dream is to complete it all in one go one day!</p>
+                <p>I love being outdoors in nature, enjoying beautiful scenery and exercise. I am currently hiking the
+                    South West Coast Path in stages. The dream is to complete it all in one go one day!</p>
             </div>
             <div class="usp-item">
                 <i class="fas fa-hands-helping"></i>
                 <h3>Volunteering</h3>
-                <p>I believe in being the change you want to see in the world. From beach cleans and helping charities with their websites to volunteering at animal shelters, I love giving my time to worthy causes.</p>
+                <p>I believe in being the change you want to see in the world. From beach cleans and helping charities
+                    with their websites to volunteering at animal shelters, I love giving my time to worthy causes.</p>
             </div>
         </div>
+    </section>
+    <section id="contact" class="contact">
+        <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+            <h2>Let's Talk</h2>
+            <p>If you're looking for an approachable and friendly web developer or SEO specialist, get in touch now. I'd love to chat to you
+                about your website and business needs.</p>
+            <input type="hidden" name="access_key" value="59ca00fe-e5f2-42a7-aae1-de6a11acf053">
+            <input placeholder="Name" type="text" name="name" required>
+            <input placeholder="Email" type="email" name="email" required>
+            <textarea placeholder="Message" name="message" required></textarea>
+            <div class="h-captcha" data-captcha="true"></div>
+            <button class="btn-2" type="submit">SUBMIT FORM<i class="fas fa-arrow-right"></i></button>
+
+        </form>
+        <script src="https://web3forms.com/client/script.js" async defer></script>
+        <section class="contact-img-about">
+            <img src="./assets/images/zara-hiking.jpg">
+        </section>
     </section>
 </body>
 <footer>
@@ -90,4 +122,5 @@
         <a class="footer-nav-link nav-link" href="#contact">CONTACT</a>
     </nav>
 </footer>
+
 </html>

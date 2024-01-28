@@ -212,7 +212,7 @@ header {
     font-weight: 300;
 }
 
-/* ABOUT SECTION */
+/* HOMEPAGE ABOUT SECTION */
 .about {
     display: flex;
     flex-direction: column;
@@ -265,7 +265,10 @@ header {
 
 .fa-edit,
 .fa-pound-sign,
-.fa-calendar-check {
+.fa-calendar-check, 
+.fa-globe-africa,
+.fa-hiking,
+.fa-hands-helping {
     font-size: 35px;
     padding-bottom: 20px;
 }
@@ -433,6 +436,44 @@ textarea {
     width: 600px;
 }
 
+/* ABOUT PAGE */
+/* ABOUT PAGE ICONS SECTION */
+.about-img-section {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-img-content {
+    padding: 200px 0;
+    width: 50%;
+    margin-left: 100px;
+}
+
+.about-img {
+    width: 50%;
+    margin-right: 100px;
+    /* padding-left: 50px; */
+}
+
+.about-img img {
+    height: 550px;
+    width: 600px;
+    border-radius: 300px;
+}
+
+.about-img-content h2 {
+    padding: 0 0 40px 0;
+}
+
+.about-img-content p {
+    padding: 15px 0 40px 0;
+    width: 80%;
+}
+
 /* FOOTER */
 footer {
     padding: 50px 100px;
@@ -542,11 +583,11 @@ footer p a:hover {
 }
 
 @media only screen and (max-width: 1094px) {
-    .services {
+    .services, .about-img-section {
         flex-direction: column;
     }
 
-    .services-content {
+    .services-content, .about-img-content {
         padding: 100px 0;
         width: 80%;
         margin-left: 0;
@@ -556,7 +597,7 @@ footer p a:hover {
         align-items: center;
     }
 
-    .services-img {
+    .services-img, .about-img {
         margin-right: 0px;
         padding-left: 0px;
         width: 100%;
@@ -566,7 +607,7 @@ footer p a:hover {
         padding-bottom: 100px;
     }
 
-    .services-img img {
+    .services-img img, .about-img img {
         height: 500px;
         width: 700px;
         padding-right: 0px;
@@ -648,7 +689,7 @@ footer p a:hover {
 }
 
 @media only screen and (max-width: 816px) {
-    .services-img img {
+    .services-img img, .about-img img {
         height: 400px;
         width: 600px;
     }
@@ -726,7 +767,7 @@ footer p a:hover {
 }
 
 @media only screen and (max-width: 682px) {
-    .services-img img {
+    .services-img img, .about-img img {
         height: 300px;
         width: 450px;
     }
@@ -787,7 +828,7 @@ footer p a:hover {
         height: 850px;
     }
 
-    .services-img img {
+    .services-img img, .about-img img {
         height: 250px;
         width: 400px;
     }

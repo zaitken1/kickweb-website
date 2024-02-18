@@ -485,6 +485,30 @@ textarea {
     width: 600px;
 }
 
+/* PRIVACY POLICY PAGE */
+.hero {
+    height: 50%;
+}
+
+.standard-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.policy-content {
+    padding: 100px;
+}
+
+.policy-content h2 {
+    padding: 20px 0;
+}
+
+.policy-content p {
+    padding-bottom: 15px;
+}
+
 /* FOOTER */
 footer {
     padding: 50px 100px;

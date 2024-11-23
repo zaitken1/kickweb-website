@@ -280,7 +280,7 @@ header {
 }
 
 .services {
-    background-color: black;
+    background-color: #4c839e;
     color: white;
     display: flex;
     flex-direction: row;
@@ -289,7 +289,7 @@ header {
 }
 
 .services-content {
-    padding: 200px 0;
+    padding: 100px 0;
     width: 50%;
     margin-left: 100px;
 }
@@ -508,7 +508,7 @@ textarea {
     color: black;
     background-color: #fff;
     cursor: pointer;
-    padding: 0 50px 0 30px;
+    padding-right: 40px;
 }
 
 .serv-web-design {
@@ -560,6 +560,12 @@ textarea {
     color: white;
 }
 
+.serv-card-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .serv-card h3 {
     margin-bottom: 30px;
 }
@@ -594,6 +600,7 @@ textarea {
     cursor: pointer;
     transition: 1s ease-in-out;
     stroke-dashoffset: -480;
+    transform: scale(1.1);
 }
 
 svg {
@@ -612,6 +619,37 @@ svg {
 button span {
     color: white;
     font-size: 15px;
+  }
+
+  .why-me, .web-serv-seo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #4c839e;
+    padding: 100px 120px 100px 120px;
+  }
+
+  .web-serv-seo {
+    background: #b5e0d5;
+  }
+
+  .why-me-text {
+    color: white;
+    width: 50%;
+    margin-right: 100px;
+  }
+
+  .why-me-text h2, .web-serv-seo-text h2 {
+    padding-bottom: 20px;
+  }
+
+  .web-serv-seo-text {
+    margin-left: 100px;
+  }
+
+  .why-me-img img, .web-serv-seo-img img {
+    width: 600px;
   }
 
 /* PRIVACY POLICY PAGE */

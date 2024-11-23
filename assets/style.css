@@ -1332,4 +1332,16 @@ footer p a:hover {
     .serv-about {
         padding-bottom: 450px;
     }
+
+    .serv-web-design {
+        width: 90%;
+    }
+
+    .why-me, .web-serv-seo {
+        padding: 100px 30px 100px 30px;
+    }
+
+    .serv-web-design-intro h2, .serv-web-design-intro-p {
+        margin: 0 20px 30px 20px;
+    }
 }

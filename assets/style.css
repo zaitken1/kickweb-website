@@ -388,6 +388,10 @@ header {
     align-items: center;
 }
 
+.serv-contact {
+    background-color: #fff;
+}
+
 .contact-form {
     padding: 100px;
     display: flex;

@@ -683,6 +683,34 @@ button span {
     width: 600px;
   }
 
+/* AXMINSTER LANDING PAGE */
+.axminster-intro {
+    display: flex;
+    margin: 80px 120px;
+}
+
+.axminster-intro-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-right: 30px;
+}
+
+.axminster-intro-text h2 {
+    margin-bottom: 20px;
+}
+
+.axminster-intro-img {
+    width: 100%;
+    margin-left: 30px;
+}
+
+.axminster-intro-img img {
+    display: flex;
+    width: 100%;
+}
+
 /* PRIVACY POLICY PAGE */
 .privacy-hero {
     display: flex;

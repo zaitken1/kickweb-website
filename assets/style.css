@@ -215,7 +215,7 @@ header {
 }
 
 /* HOMEPAGE ABOUT SECTION */
-.about, .serv-about, .axminster-about {
+.about, .serv-about, .axminster-summary {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -226,7 +226,7 @@ header {
 }
 
 .about h2,
-.about p, .serv-about h2, .serv-about p, .axminster-about h2, .axminster-about p {
+.about p, .serv-about h2, .serv-about p, .axminster-summary h2, .axminster-summary p {
     width: 50%;
     margin-top: 20px;
     display: flex;
@@ -684,13 +684,29 @@ button span {
   }
 
 /* AXMINSTER LANDING PAGE */
-.axminster-about {
+.axminster-summary {
     padding-bottom: 100px;
 }
 
-.axminster-intro {
+.axminster-intro, .axminster-cost-section, .axm-recent-projects, .axminster-about-me {
     display: flex;
     margin: 80px 120px;
+    margin-bottom: 150px;
+}
+
+.axm-recent-projects {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.axm-recent-projects h2, .work-card h3 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.axm-recent-projects p {
+    padding-bottom: 50px;
 }
 
 .axminster-intro-text {
@@ -701,18 +717,32 @@ button span {
     margin-right: 30px;
 }
 
-.axminster-intro-text h2 {
+.axminster-intro-text h2, .axminster-price-text h2, .axminster-about-me h2 {
     margin-bottom: 20px;
 }
 
-.axminster-intro-img {
+.axminster-intro-img, .axm-about-img {
     width: 100%;
     margin-left: 30px;
 }
 
-.axminster-intro-img img {
+.axminster-intro-img img, .price-img img, .axm-about-img img {
     display: flex;
     width: 100%;
+}
+
+.price-img {
+    width: 100%;
+    margin-right: 30px;
+}
+
+
+.axminster-price-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-left: 30px;
 }
 
 /* PRIVACY POLICY PAGE */
@@ -773,7 +803,7 @@ footer p a:hover {
 }
 
 @media only screen and (max-width: 1448px) {
-    .serv-about, .axminster-about {
+    .serv-about, .axminster-summary {
         padding-bottom: 70px;
     }
 }
@@ -852,7 +882,7 @@ footer p a:hover {
 }
 
 @media only screen and (max-width: 1203px) {
-    .serv-about, .axminster-about {
+    .serv-about, .axminster-summary {
         padding-top: 15px;
         padding-bottom: 150px;
     }
@@ -1011,7 +1041,7 @@ footer p a:hover {
 }
 
 @media only screen and (max-width: 992px) {
-    .serv-about, .axminster-about {
+    .serv-about, .axminster-summary {
         padding-top: 10px;
         padding-bottom: 200px;
     }
@@ -1034,11 +1064,11 @@ footer p a:hover {
 @media only screen and (max-width: 950px) {
 
     .about h2,
-    .about p, .serv-about h2, .serv-about p, .axminster-about h2, .axminster-about p {
+    .about p, .serv-about h2, .serv-about p, .axminster-summary h2, .axminster-summary p {
         width: 75%;
     }
 
-    .serv-about, .axminster-about {
+    .serv-about, .axminster-summary {
         padding-bottom: 100px;
     }
 }
@@ -1079,7 +1109,7 @@ footer p a:hover {
         width: 600px;
     }
 
-    .serv-about, .axminster-about {
+    .serv-about, .axminster-summary {
         padding-bottom: 150px;
     }
 
@@ -1154,7 +1184,7 @@ footer p a:hover {
 }
 
 @media only screen and (max-width: 788px) {
-    .serv-about, .axminster-about {
+    .serv-about, .axminster-summary {
         padding-bottom: 200px;
     }
 }
@@ -1193,7 +1223,7 @@ footer p a:hover {
 }
 
 @media only screen and (max-width: 667px) {
-    .serv-about, .axminster-about {
+    .serv-about, .axminster-summary {
         padding-bottom: 300px;
     }
 }
@@ -1274,7 +1304,7 @@ footer p a:hover {
 }
 
 @media only screen and (max-width: 517px) {
-    .serv-about, .axminster-about {
+    .serv-about, .axminster-summary {
         padding-bottom: 350px;
     }
 }
@@ -1303,7 +1333,7 @@ footer p a:hover {
         padding: 100px 30px 0 30px;
     }
 
-    .serv-about, .axminster-about {
+    .serv-about, .axminster-summary {
         padding-bottom: 400px;
     }
 }
@@ -1317,7 +1347,7 @@ footer p a:hover {
         height: 1200px;
     }
 
-    .serv-about, .axminster-about {
+    .serv-about, .axminster-summary {
         padding-top: 50px;
         padding-bottom: 300px;
         clip-path: polygon(0% 0%, 0% 80%, 100% 100%, 100% 0%);
@@ -1361,7 +1391,7 @@ footer p a:hover {
         height: 250px;
     }
 
-    .serv-about, .axminster-about {
+    .serv-about, .axminster-summary {
         padding-bottom: 450px;
     }
 

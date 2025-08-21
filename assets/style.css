@@ -467,8 +467,7 @@ textarea {
 
 .about-img img {
     height: 550px;
-    width: 600px;
-    border-radius: 300px;
+    width: 700px;
 }
 
 .about-img-content h2 {
@@ -486,7 +485,7 @@ textarea {
 }
 
 .contact-img-about img {
-    height: 450px;
+    height: 400px;
     width: 600px;
 }
 
@@ -997,7 +996,7 @@ footer p a:hover {
 
     .about-img img {
         height: 600px;
-        width: 700px;
+        width: 600px;
     }
 
     .serv-web-design-row {

@@ -188,6 +188,16 @@ header {
     background-color: #b5e0d5;
 }
 
+.hero-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    background-color: #b5e0d5;
+}
+
 .hero-shape {
     display: flex;
     flex-direction: column;
@@ -212,6 +222,10 @@ header {
     font-size: 22px;
     font-weight: 300;
     text-align: center;
+}
+
+.hero-p-contact {
+    margin: 25px 100px 100px 100px;
 }
 
 /* HOMEPAGE ABOUT SECTION */
@@ -399,6 +413,13 @@ header {
     justify-content: center;
 }
 
+.contact-form-section {
+    padding: 0 120px 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .contact-form h2, .axm-contact-form h2 {
     padding: 0 0 20px 0;
 }
@@ -411,15 +432,10 @@ header {
 input,
 textarea {
     padding: 10px;
-    width: 80%;
-    margin: 5px 0 5px 0;
-    border-radius: 0;
-    background-color: transparent;
-    border-bottom-width: 1px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-color: black;
+    width: 95%;
+    margin: 10px 10px 10px 0 !important;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
 }
 
 textarea {
@@ -682,6 +698,19 @@ button span {
     width: 600px;
   }
 
+  /* CONTACT PAGE */
+.contact-details {
+    margin: 30px 120px 80px 120px;
+    width: 50%;
+}
+
+.contact-page-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: -4px 4px 25px grey;
+}
+
 /* AXMINSTER LANDING PAGE */
 .axminster-summary {
     padding-bottom: 100px;
@@ -931,7 +960,7 @@ footer p a:hover {
 
     input,
     textarea {
-        width: 90%;
+        width: 100%;
     }
 
     .contact-img,

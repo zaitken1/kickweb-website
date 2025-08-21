@@ -948,18 +948,17 @@ footer p a:hover {
         flex-direction: column;
     }
 
+    .contact-form-section {
+        padding: 0 0 100px 0;
+    }
+
     .contact-form, .axm-contact-form {
         display: flex;
         justify-content: center;
-        align-items: flex-start;
+        align-items: center;
     }
 
     .contact-form p, .axm-contact-form p {
-        width: 100%;
-    }
-
-    input,
-    textarea {
         width: 100%;
     }
 
@@ -1232,6 +1231,12 @@ footer p a:hover {
     }
 }
 
+@media only screen and (max-width: 791px) {
+    .contact-form-section {
+        margin: 0 70px;
+    }
+}
+
 @media only screen and (max-width: 788px) {
     .serv-about, .axminster-summary {
         padding-bottom: 200px;
@@ -1286,6 +1291,10 @@ footer p a:hover {
         margin: 25px 50px;
     }
 
+    .hero-p-contact {
+        margin: 20px 50px 100px 50px;
+    }
+
     .about {
         height: 650px;
     }
@@ -1320,7 +1329,11 @@ footer p a:hover {
     }
 
     .hero-p {
-        margin: 25px 25px 0 25px;
+        margin: 25px 25px 50px 25px;
+    }
+
+    .hero-p-contact {
+        margin: 20px 25px 50px 25px;
     }
 
     .about {

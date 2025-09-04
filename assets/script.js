@@ -17,3 +17,25 @@ function closeMenu() {
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
 }
+
+// FAQ ACCORDION
+const accordion = document.querySelectorAll('.accordion');
+// const panel = document.querySelectorAll ('.accordion-panel');
+let i;
+
+
+for (i = 0; i < accordion.length; i++) {
+    accordion[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+
+        panel = this.nextElementSibling;
+
+        if (panel.style.display == "none") {
+            panel.style.display = "block";
+            console.log('clicked');
+        } else if (panel.style.display == "block") {
+            panel.style.display = "none";
+            }
+
+        })
+}

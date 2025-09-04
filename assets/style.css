@@ -698,6 +698,48 @@ button span {
     width: 600px;
   }
 
+  /* FAQS PAGE */
+
+.faq-section {
+    background-color: #b5e0d5;
+    padding: 100px 120px;
+}
+
+.faq-section h2 {
+    padding-bottom: 30px;
+}
+  
+  /* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #fff;
+  color: #444;
+  cursor: pointer;
+  padding: 25px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  font-size: 19px;
+  font-family: Lato;
+  font-weight: 300;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #0a9a73;
+  color: #fff;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+
+.accordion-panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
   /* CONTACT PAGE */
 .contact-details {
     margin: 30px 120px 80px 120px;

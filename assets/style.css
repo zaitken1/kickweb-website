@@ -708,8 +708,11 @@ button span {
 .faq-section h2 {
     padding-bottom: 30px;
 }
+
+.faq-section h2:nth-child(28) {
+    margin-top: 80px;
+}
   
-  /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
   background-color: #fff;
   color: #444;
@@ -725,16 +728,13 @@ button span {
   font-weight: 300;
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover {
   background-color: #0a9a73;
   color: #fff;
 }
 
-/* Style the accordion panel. Note: hidden by default */
-
 .accordion-panel {
-  padding: 0 18px;
+  padding: 25px 35px;
   background-color: white;
   display: none;
   overflow: hidden;

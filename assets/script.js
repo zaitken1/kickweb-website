@@ -20,7 +20,6 @@ function closeMenu() {
 
 // FAQ ACCORDION
 const accordion = document.querySelectorAll('.accordion');
-// const panel = document.querySelectorAll ('.accordion-panel');
 let i;
 
 

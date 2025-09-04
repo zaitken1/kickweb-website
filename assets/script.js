@@ -32,7 +32,6 @@ for (i = 0; i < accordion.length; i++) {
 
         if (panel.style.display == "none") {
             panel.style.display = "block";
-            console.log('clicked');
         } else if (panel.style.display == "block") {
             panel.style.display = "none";
             }

@@ -726,6 +726,7 @@ button span {
   font-size: 19px;
   font-family: Lato;
   font-weight: 300;
+    border-bottom: 1px solid;
 }
 
 .active, .accordion:hover {

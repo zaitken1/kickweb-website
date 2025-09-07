@@ -726,7 +726,7 @@ button span {
   font-size: 19px;
   font-family: Lato;
   font-weight: 300;
-    border-bottom: 1px solid;
+  border-bottom: 1px solid;
 }
 
 .active, .accordion:hover {
@@ -739,6 +739,18 @@ button span {
   background-color: white;
   display: none;
   overflow: hidden;
+}
+
+.accordion:after {
+  content: '\0002B'; /* Unicode character for "plus" sign (+) */
+  font-size: 25px;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\002D"; 
+  font-size: 25px;
 }
 
   /* CONTACT PAGE */

@@ -806,7 +806,7 @@ button span {
 
 .axminster-intro-img, .axm-about-img {
     width: 100%;
-    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .axminster-intro-img img, .price-img img, .axm-about-img img {
@@ -835,7 +835,7 @@ button span {
 }
 
 .axm-about-text {
-    margin-right: 30px;
+    margin-left: 30px;
     width: 100%;
 }
 
@@ -982,6 +982,19 @@ footer p a:hover {
 @media only screen and (max-width: 1214px) {
     .about {
         height: 570px;
+    }
+
+    
+    .axminster-intro {
+        flex-direction: column;
+    }
+
+    .axminster-cost-section, .axminster-about-me {
+        flex-direction: column-reverse;
+    }
+
+    .axminster-intro-text, .axminster-price-text, .axm-about-text {
+        margin-bottom: 40px;
     }
 }
 
@@ -1357,7 +1370,7 @@ footer p a:hover {
     }
 
     .hero-p, .faq-intro {
-        margin: 25px 50px;
+        margin: 10px 25px;
     }
 
     .hero-p-contact {
@@ -1408,7 +1421,7 @@ footer p a:hover {
     }
 
     .hero-p {
-        margin: 25px 25px 50px 25px;
+        margin: 10px 25px;
     }
 
     .hero-p-contact {

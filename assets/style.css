@@ -216,13 +216,20 @@ header {
             0 100%);
 }
 
+.hero-shape-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .hero-h1 {
     font-size: 40px;
-    margin: 0 100px;
+    margin: 0;
 }
 
 .hero-p {
-    margin: 25px 100px 0 100px;
+    margin: 25px 0 0 0;
     font-size: 22px;
     font-weight: 300;
     text-align: center;
@@ -1092,10 +1099,6 @@ footer p a:hover {
 }
 
 @media only screen and (max-width: 1112px) {
-    header {
-        margin: 0 50px;
-    }
-
     .faq-section {
         padding: 100px 75px 50px 75px;
     }
@@ -1428,16 +1431,15 @@ footer p a:hover {
 
 @media only screen and (max-width: 647px) {
     .hero-h1 {
-        margin: 0 50px;
+        margin: 0;
     }
 
-    .hero-p,
     .faq-intro {
         margin: 10px 25px;
     }
 
     .hero-p-contact {
-        margin: 20px 50px 100px 50px;
+        margin: 20px 0px 100px 0px;
     }
 
     .about {
@@ -1471,10 +1473,6 @@ footer p a:hover {
 }
 
 @media only screen and (max-width: 554px) {
-    header {
-        margin: 0 20px;
-    }
-
     .faq-section {
         padding: 100px 40px 50px 40px;
     }
@@ -1522,6 +1520,16 @@ footer p a:hover {
     }
 }
 
+@media only screen and (max-width: 532px) {
+    .hero-shape-content {
+        margin-bottom: 3rem;
+    }
+
+    .home-hero-btn {
+        margin-top: 1rem;
+    }
+}
+
 @media only screen and (max-width: 517px) {
 
     .serv-about,
@@ -1530,11 +1538,17 @@ footer p a:hover {
     }
 }
 
+@media only screen and (max-width: 483px) {
+    .hero-shape-content {
+        margin-bottom: 5rem;
+    }
+}
+
 @media only screen and (max-width: 431px) {
 
     .hero,
     .hero-shape {
-        height: 800px;
+        height: 700px;
     }
 
     .usps {

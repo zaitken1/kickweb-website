@@ -236,7 +236,7 @@ header {
 }
 
 .hero-p-contact {
-    margin: 25px 100px 100px 100px;
+    margin: 25px 0 100px 0;
 }
 
 /* HOMEPAGE ABOUT SECTION */
@@ -1486,7 +1486,7 @@ footer p a:hover {
     }
 
     .hero-p-contact {
-        margin: 20px 25px 50px 25px;
+        margin: 20px 0 50px 0;
     }
 
     .about {
